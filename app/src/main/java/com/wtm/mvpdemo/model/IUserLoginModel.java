@@ -1,4 +1,4 @@
-package com.itheima.mvpdemo.model;
+package com.wtm.mvpdemo.model;
 
 /**
  * Model：登录业务逻辑

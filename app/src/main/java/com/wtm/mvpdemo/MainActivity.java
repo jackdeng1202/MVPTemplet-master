@@ -1,20 +1,21 @@
-package com.itheima.mvpdemo;
+package com.wtm.mvpdemo;
 
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.itheima.mvpdemo.model.User;
-import com.itheima.mvpdemo.presenter.UserLoginPresenter;
-import com.itheima.mvpdemo.view.IUserLoginView;
+import com.wtm.mvpdemo.model.User;
+import com.wtm.mvpdemo.presenter.UserLoginPresenter;
+import com.wtm.mvpdemo.view.IUserLoginView;
 
-public class LoginActivityMVP extends Activity implements OnClickListener,IUserLoginView{
+import mvpdemo.wtm.com.mvpdemo.R;
+
+public class MainActivity extends Activity implements View.OnClickListener,IUserLoginView {
 
     private EditText etUsername;
     private EditText etPassword;
@@ -73,11 +74,11 @@ public class LoginActivityMVP extends Activity implements OnClickListener,IUserL
 
     @Override
     public void jump2Main(User user) {
-        Toast.makeText(LoginActivityMVP.this, "登录成功，跳转主页~~~", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "登录成功，跳转主页~~~", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void showLoginError() {
-        Toast.makeText(LoginActivityMVP.this, "用户名或者密码错误，登录失败~~~", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "用户名或者密码错误，登录失败~~~", Toast.LENGTH_SHORT).show();
     }
 }

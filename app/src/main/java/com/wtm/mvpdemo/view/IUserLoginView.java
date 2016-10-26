@@ -1,6 +1,7 @@
-package com.itheima.mvpdemo.view;
+package com.wtm.mvpdemo.view;
 
-import com.itheima.mvpdemo.model.User;
+
+import com.wtm.mvpdemo.model.User;
 
 /**
  * View层，如何实现View层，View层是最复杂的一层

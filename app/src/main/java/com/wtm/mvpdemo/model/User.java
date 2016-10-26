@@ -1,4 +1,4 @@
-package com.itheima.mvpdemo.model;
+package com.wtm.mvpdemo.model;
 
 /**
  * 登录用户

@@ -1,11 +1,11 @@
-package com.itheima.mvpdemo.model;
+package com.wtm.mvpdemo.model;
 
 import android.os.SystemClock;
 
 /**
  * Model层，用户登录
  */
-public class UserLoginModel implements IUserLoginModel{
+public class UserLoginModel implements IUserLoginModel {
     @Override
     public void login(final String username, final String password, final OnUserLoginListener listener) {
         //模拟网络耗时操作

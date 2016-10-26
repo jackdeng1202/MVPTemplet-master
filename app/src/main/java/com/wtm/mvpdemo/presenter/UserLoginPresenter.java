@@ -1,12 +1,13 @@
-package com.itheima.mvpdemo.presenter;
+package com.wtm.mvpdemo.presenter;
 
 import android.os.Handler;
 
-import com.itheima.mvpdemo.model.IUserLoginModel;
-import com.itheima.mvpdemo.model.OnUserLoginListener;
-import com.itheima.mvpdemo.model.User;
-import com.itheima.mvpdemo.model.UserLoginModel;
-import com.itheima.mvpdemo.view.IUserLoginView;
+import com.wtm.mvpdemo.model.IUserLoginModel;
+import com.wtm.mvpdemo.model.OnUserLoginListener;
+import com.wtm.mvpdemo.model.User;
+import com.wtm.mvpdemo.model.UserLoginModel;
+import com.wtm.mvpdemo.view.IUserLoginView;
+
 
 /**
  * Presenter层
